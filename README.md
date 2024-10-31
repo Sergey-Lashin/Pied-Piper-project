@@ -1,4 +1,4 @@
-# Pied-Piper project - моя первая вручную сверстанная HTML страница.
+# [Pied-Piper project - моя первая вручную сверстанная HTML страница.](https://sergey-lashin.github.io/Pied-Piper-project/index "Ссылка на Lending page")
 
 Проект создан с целью развития навыков работы с *HTML* и *CSS* в качестве домашней работы из курса для начинающих верстальщиков *HTML* и *CSS* на [__stepik__](https://stepik.org/course/38218/syllabus "Курс на stepik").
 
