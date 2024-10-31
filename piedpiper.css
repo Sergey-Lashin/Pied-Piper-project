@@ -1,0 +1,158 @@
+body {
+margin: 0 auto;
+font-family: Roboto, sans-serif;
+}
+.header_main {
+    width: 100%;
+ background-color: #007765;
+ height:84px;
+ position: fixed;
+}
+.main_container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px; 
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.main_container:after {
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    margin:20px 55px auto 55px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 29px 55px auto;
+    padding: 0 55px;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a { 
+  text-decoration: none;
+  font: 24px sans-serif;
+  color: #FFFFFF;
+  line-height: 29px;
+  }
+.li:before {
+    content: "|";
+    color: #FFFFFF;
+    font: 24px sans-serif;
+  }
+  a:hover {
+    color:#00342C;
+    font-size:28px;
+  }
+  .main {
+    background-image: url("image.png");
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  h1 {
+    color: #FFFFFF;
+    font: 72px sans-serif;
+    text-align: center;
+  }
+  h2,h4,h5 {
+    color: #007765;
+    font: 64px sans-serif;
+    margin: 48px 0;
+    text-align: center;
+  }
+  h3 {
+    color:#FFFFFF;
+    font: 48px sans-serif;
+    text-align: center;
+    line-height: 56.25px;
+  }
+  h6 {
+    color: #007765;
+    font: 24px sans-serif;
+    line-height: 28.13px;
+    margin: 0;
+  }
+  .problem {
+    background-color: #EEEEEE;
+    padding-top: 48px;
+    height: 719px;
+  }
+  .text{
+    color: #000000;
+    line-height: 37.5px;
+    font: 32px sans-serif;
+    text-align: justify;
+    padding-top: 55px;
+    padding-bottom: 95px;
+  }
+  .Hero {
+    background-image: url("Hero.png");
+    background-position: center center;
+    background-size: cover;
+    background-color: aqua;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+  .coin {
+    background-color:#FFFFFF;
+    padding-top: 55px;
+  }
+  .coinlogo {
+    float: left;
+    padding-top: 80px;
+    padding-right: 55px;
+  }
+  .clear {
+    clear: both;
+  }
+  .team {
+    background-color: #EEEEEE;
+    padding-top: 55px;
+    padding-bottom: 95px;
+  }
+  figcaption {
+    color: #000000;
+    font: 18px sans-serif;
+    font-style: italic;
+    line-height: 21.09px;
+  }
+  .gays {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 33%;
+  }
+  .foto {
+    list-style-type: none;
+  }
+  .footer {
+    background-color: #333333;
+    padding-top: 50px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    height: 176px; /*Устанавливает высоту содержимого элемента*/
+    text-align: center;
+  }
+  .text2 {
+  width: 540px; /*Устанавливает ширину содержимого элемента*/
+  height: 74px; /*Устанавливает высоту содержимого элемента*/
+  margin: 0 auto; /*Расстояние от края элемента до края другог элемента*/
+  color: #fff; /*Определяет цвет текста элемента*/
+  font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+  font-weight: normal; /*Устанавливает насыщенность шрифта*/
+  font-size: 18px; /*Определяет размер шрифта элемента*/
+  line-height: 21px; /*Задаёт высоту строки текста*/
+}
